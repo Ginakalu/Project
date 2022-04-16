@@ -10,7 +10,8 @@ int main(void)
 {
 
 	int a = 10;
+	char *name = "Gina";
 	
-	printf("Hello world");
+	printf("Hello %s", name);
 	return (0);
 }
